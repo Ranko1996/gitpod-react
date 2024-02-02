@@ -1,0 +1,27 @@
+/* src/LandingPage.css */
+.landing-page {
+    position: relative;
+    height: 100vh; /* 100% visine prozora preglednika */
+    overflow: hidden;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Omogućava da slika prekrije cijeli div */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Postavljanje pozadinske slike ispod sadržaja */
+  }
+  
+  .welcome-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
